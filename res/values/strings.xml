@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OneHand</string>
+    <string name="title_activity_display_note">My Notes</string>
+    <string name="edit_message">Your note</string>
+    <string name="create">Create</string>
+</resources>
