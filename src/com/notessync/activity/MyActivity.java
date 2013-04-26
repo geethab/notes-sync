@@ -1,10 +1,11 @@
-package com.notessync;
+package com.notessync.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import com.notessync.R;
 
 public class MyActivity extends Activity {
 
