@@ -3,7 +3,6 @@ package com.notessync.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
-import com.notessync.MyActivity;
 
 public class DisplayMessageActivity extends Activity {
 

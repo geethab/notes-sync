@@ -11,6 +11,6 @@ public class CreateButton extends Fragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.notes_text_fragment,container,false);
+        return inflater.inflate(R.layout.create_button_fragment,container,false);
     }
 }

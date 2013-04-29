@@ -4,15 +4,16 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <EditText android:id="@+id/welcome_message"
+    <fragment android:name="com.notessync.fragment.NoteText"
+              android:id="@+id/notes_text"
               android:layout_weight="1"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:hint="@string/edit_message" />
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/create"
-            android:onClick="createNote" />
+              android:layout_width="0dp"
+              android:layout_height="match_parent" />
+
+    <fragment android:name="com.notessync.fragment.CreateButton"
+              android:id="@+id/create_button"
+              android:layout_weight="1"
+              android:layout_width="0dp"
+              android:layout_height="match_parent" />
 </LinearLayout>
 

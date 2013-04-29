@@ -1,11 +1,16 @@
 package com.notessync.fragment;
 
-/**
- * Created with IntelliJ IDEA.
- * User: twuk
- * Date: 25/04/2013
- * Time: 17:39
- * To change this template use File | Settings | File Templates.
- */
-public class NoteText {
+import android.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import com.notessync.R;
+
+public class NoteText extends Fragment{
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.note_text_fragment,container,false);
+    }
 }
