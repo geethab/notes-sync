@@ -17,3 +17,9 @@ local.properties
 
 # Output folders
 /bin
+/gen
+/out
+
+# Intellij Project files
+.idea/
+*.iml
