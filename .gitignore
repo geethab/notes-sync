@@ -23,3 +23,6 @@ local.properties
 # Intellij Project files
 .idea/
 *.iml
+
+# Mac hidden files
+.DS_Store
